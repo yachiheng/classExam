@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/lblTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Activity Demo"
+        android:textSize="35sp" />
+
+    <Button
+        android:id="@+id/btnBShared"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="btnShared_click"
+        android:text="SharedPreference"
+        android:textSize="35sp" />
+
+    <Button
+        android:id="@+id/btnFile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="btnFile_click"
+        android:text="File I/O"
+        android:textSize="35sp" />
+
+    <Button
+        android:id="@+id/btnSqlite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="btnSqlite_click"
+        android:text="Sqlite"
+        android:textSize="35sp" />
+
+
+</LinearLayout>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">DrinkPOS</string>
+    <string-array name="drinkkind">
+        <item>台灣茗茶</item>
+        <item>特調系列</item>
+        <item>椰果系列</item>
+        <item>珍珠系列</item>
+        <item>凍奶系列</item>
+        <item>新鮮現榨系列</item>
+        <item>咖啡系列</item>
+        <item>調和果汁系列</item>
+
+
+    </string-array>
+</resources>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainFunctionMenu">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="220dp"
+        android:background="1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/familybg" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnMedicineNotice"
+                android:layout_height="110dp"
+                android:layout_weight="1"
+                android:background="@drawable/medicine"
+                android:onClick="btnMedicineNotice_click"
+                android:text="用藥管理"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/btnTakecare"
+                android:layout_height="110dp"
+                android:layout_weight="1"
+                android:background="@drawable/olderperson"
+                android:text="被照護者"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/btnGPS"
+                android:layout_height="110dp"
+                android:layout_weight="1"
+                android:background="@drawable/gps"
+                android:text="GPS追蹤"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <Button
+                android:id="@+id/btnUnusualRecord"
+                android:layout_height="110dp"
+                android:layout_weight="1"
+                android:background="@drawable/accident"
+                android:text="異常紀錄"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/btnEmergencyContact"
+                android:layout_height="110dp"
+                android:layout_weight="1"
+                android:background="@drawable/contactperson"
+                android:text="緊急聯絡人"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/btnOtherConfig"
+                android:layout_height="89dp"
+                android:layout_weight="1"
+                android:background="@drawable/gear"
+                android:text="其他設定"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="110dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.341"
+        app:srcCompat="@drawable/title" />
+
+
+</android.support.constraint.ConstraintLayout>
